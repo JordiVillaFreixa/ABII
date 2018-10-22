@@ -1,0 +1,65 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{Centeno2003a}{article}{}
+      \name{author}{3}{}{%
+        {{hash=cc33e38a153577e2f3b17891adc8370f}{%
+           family={Centeno},
+           familyi={C\bibinitperiod},
+           given={Nuria\bibnamedelimb B\bibnamedelimb N\bibnamedelima B},
+           giveni={N\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=0cec8360199b37d8be7dfdf0a8c1a167}{%
+           family={Villà-Freixa},
+           familyi={V\bibinithyphendelim F\bibinitperiod},
+           given={Jordi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=82ceb9e647ee007be379d9da03b9c698}{%
+           family={Oliva},
+           familyi={O\bibinitperiod},
+           given={Baldomero},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{d1bc529c8de28c513d1ed0fd7b82dff6}
+      \strng{fullhash}{d1bc529c8de28c513d1ed0fd7b82dff6}
+      \strng{authornamehash}{d1bc529c8de28c513d1ed0fd7b82dff6}
+      \strng{authorfullhash}{d1bc529c8de28c513d1ed0fd7b82dff6}
+      \field{sortinit}{C}
+      \field{sortinithash}{095692fd22cc3c74d7fe223d02314dbd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Understanding the basic principles of structural biology is becoming a major subject of study in most undergraduate level programs in biology. In the genomic and proteomic age; and structural bioinformatics tools. The students learn to use most of the leading computer programs available for the complete path that goes from sequence to structure and eventually function. During the course; including computational genomics; it is becoming indispensable for biology students to master concepts related to the sequence and structure of proteins in order to develop skills that may be useful in a wide range of applications. Within this context; they are taught to build models of proteins based on sequence and structure informa- tion. The students are also provided with a critical point of view on automatic procedures and learn to discern between likely and unlikely structures of their final models.; this article shows a scheme for teaching structural biology based on hands-on computer approaches}
+      \field{issn}{14708175}
+      \field{journaltitle}{Biochemistry and Molecular Biology Education}
+      \field{number}{6}
+      \field{title}{{Teaching structural bioinformatics at the undergraduate level}}
+      \field{volume}{31}
+      \field{year}{2003}
+      \field{pages}{386\bibrangedash 391}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1002/bmb.2003.494031060287
+      \endverb
+      \keyw{Structural biology,computer simulations.,homology modeling}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

@@ -1,0 +1,108 @@
+\documentclass{report}
+\include{common}
+\VerbatimFootnotes
+\lfoot{}
+\lhead{\bf Advanced Bioinformatics (II) GBIOTEC-09UV}                %
+\rhead{\bf Grau en Biotecnologia}                %
+
+\title{Comparative modelling of protein structures}
+\date{\today}
+\author{Jordi Vill\`a i Freixa (jordi.villa@uvic.cat)}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\begin{center}
+{\LARGE \bf Grau en Biotecnologia}\\
+{\large Comparative Modelling of Protein Structures}\\
+1st semester 2018-2019\\
+Edifici Torre dels Frares, Vic\\
+\textit{Jordi Vill\`a i Freixa (jordi.villa@uvic.cat)}\footnote{This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 Unported License.
+  \begin{center}
+    \includegraphics[scale=0.1]{figures/CC-BY-NC-SA.png}
+  \end{center}
+  Unless stated, images are obtained from Wikipedia or other sources that allow for reuse
+\end{center}
+
+
+\tableofcontents
+
+\section{Introduction}
+
+\begin{description}
+\item[Summary] The project involves the use of different bioinformatics tools to develop a model for an unknown protein structure. The different steps and tools used during the modelling process (template selection, sequence alignment, model building, loop refinement and model evaluation) will be connected through Python and R scripts in order to develop complete pipelines with general purpose. Each student will have a different project (protein target).
+
+\item[Software needed] Python, R, Modeller
+
+\item[Covered topics] evolution, multiple sequence analysis, homology modelling, protein 3D visualization.
+
+\item[References] Some good references to start: \cite{Centeno2003a}
+\end{description}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.5]{figures/centeno1.png}
+\caption{Sumary of a standard protocol for homology modelling\cite{Centeno2003a}}
+\label{fig:centeno1}
+\end{figure}
+
+\section{Homology modelling essentials}
+
+Once a target sequence is chosen, the model building process consists on a series of steps that we will try to unravel through the course: 
+\begin{enumerate}
+\item Looking for correct structural templates.
+\item Obtain a signifficant multiple alignment between the target sequence and the templates.
+\item Model building.
+\item Structurally variable regions (SVR) building.
+\item Model refinement.
+\item Model evaluation.
+\end{enumerate}
+
+
+\begin{appendix}
+\chapter{Links of interest}
+\label{sec:EnllacosInteres}
+
+General references: 
+\begin{description}
+\item[Wikipedia] \linkurl{https://en.wikipedia.org/wiki/Homology_modeling}
+\end{description}
+
+General servers: 
+\begin{description}
+\item[SWISS-MODEL] \linkurl{https://swissmodel.expasy.org/}
+\item[GeneSilico] Protein Structure Prediction Meta Server \linkurl{https://genesilico.pl/meta2/}
+\item[PSIPRED] Protein Sequence Analysis Workbench \linkurl{http://bioinf.cs.ucl.ac.uk/psipred/}. 
+\item[I-TASSER] Iterative Threading ASSEmbly Refinement \linkurl{https://zhanglab.ccmb.med.umich.edu/I-TASSER/}. 
+\item[ROBETTA] Full-chain Protein Structure Prediction Server \linkurl{http://robetta.bakerlab.org/}. 
+\item[HHPRED] protein function and protein structure prediction server \linkurl{https://toolkit.tuebingen.mpg.de/#/tools/hhpred}. 
+\item[PCONS] Protein Structure Prediction Meta Server \linkurl{http://pcons.net/}. 
+\item[ROBETTA] Full-chain Protein Structure Prediction Server \linkurl{http://robetta.bakerlab.org/}. 
+
+\end{description}
+
+Software:
+\begin{description}
+\item[R] \linkurl{https://iupac.org/}.
+\item[PyMOL]  \linkurl{https://pymol.org/2/}. 
+\item[HMMER] Biosequence analysis using profile hidden Markov models \linkurl{http://hmmer.org/}.
+ \item[CLUSTAL] Multiple Sequence Alignment \linkurl{http://www.clustal.org/}.
+\item[Modeller] Homology or comparative modeling of protein three-dimensional structures \linkurl{https://salilab.org/modeller/}. 
+
+\end{description}
+
+Databases:
+\begin{description}
+\item[NCBI] \linkurl{https://www.ncbi.nlm.nih.gov/}. 
+\item[PDB] Protein Data Bank  \linkurl{https://www.rcsb.org/}. 
+\item[CATH] Protein Structure Classification Database \linkurl{http://www.cathdb.info/}
+\item[SCOP] Structural Classification of Proteins \linkurl{http://scop.mrc-lmb.cam.ac.uk/scop/}
+\end{description}
+
+  \listoffigures
+  \listoftables
+  \printbibliography
+\end{appendix}
+
+\end{document}
